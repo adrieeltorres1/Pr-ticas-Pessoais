@@ -1,9 +1,49 @@
-.colecao{
-background-color: blueviolet;
+header {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin: 2px;
+    display: flex;
+    align-self: center;
+    padding: 5px;
+    height: 65px;
+
 }
-.caixas{
+main {
+    background-color: orange;
+    border: 2px solid black;
+    margin: 2px;
+    
+}
+header img {
+    margin-right: 10px;
+    height: 65px;
+}
+.colecao1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid orange;
+}
+.colecao2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid orange;
+}
+.colecao3 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixas {
+    padding: 5px;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 5px;
     height: 200px;
     width: 200px;
+    color: orange;
+   
 }
+
